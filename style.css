@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  blockquote {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content-section {
+    box-sizing: border-box;
+    width: 360px;
+    min-height: 100px;
+    margin: auto;
+  }
+  
+  .content-section_theme_dark {
+    color: #fff;
+    background-color: #131313;
+  }
+  
+  .content-section_theme_bright {
+    color: #131313;
+    background-color: #fee42a;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px 20px;
+  }
+  
+  .header_logo {
+    display: block;
+    width: 78px;
+  }
+  
+  .header_logo-image {
+    width: 100%;
+  }
+  
+  .header_menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+  }
+  
+  .header_menu-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  
+  .header_menu-item_active .header_menu-link {
+    text-decoration: none;
+  }
+  
+  .cover {
+    min-height: 258px;
+    padding: 7px 24px 32px 20px;
+    background-image: url(../img/cover.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 95% auto;
+  }
+  
+  .cover_title {
+    width: 100%;
+    color: white;
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1;
+  }
+  
+  .accent-span {
+    display: block;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .intro {
+    padding: 0 20px 38px;
+  }
+  
+  .intro_heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    color: #ccc;
+    font-size: 16px;
+  }
+  
+  .intro_title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  
+  .intro-date {
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+  
+  .intro_main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+  
+  .reasons {
+    padding: 40px 20px;
+  }
+  
+  .content-section_subtitle {
+    margin-bottom: 32px;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.15;
+  }
+  
+  .content-section_introduction {
+    margin: 0 0 32px;
+    font-size: 20px;
+    line-height: 1.35;
+  }
+  
+  .content-section_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 0 0 16px;
+    font-size: 16px;
+    line-height: 1.35;
+  }
+  
+  .content-section_list-accent {
+    font-weight: 700;
+  }
+  
+  .how-to {
+    padding: 40px 20px 60px;
+  }
+  
+  .card {
+    border-radius: 30px;
+    padding: 20px;
+  }
+  .card_theme_dark {
+    color: #f5f5f5;
+    background-color: #343434;
+  }
+  
+  .card_theme_bright {
+    color: #141414;
+    background-color: #fee42a;
+  }
+  
+  .card_author-photo {
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .card_author-name {
+    margin: 8px 0 0;
+    font-weight: 700;
+  }
+  
+  .card_title {
+    margin: 8px auto;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.35;
+  }
+  
+  .cards-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    list-style: none;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fee42a;
+    padding: 20px;
+    min-height: 62px;
+  }
+  
+  .footer_links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+  }
+  
+  .footer_links a {
+    color: #f5f5f5;
+    font-size: 14px;
+    line-height: 1.25;
+    text-decoration: none;
+  }
+  
